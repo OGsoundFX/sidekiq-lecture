@@ -3,7 +3,7 @@ class FakeJob < ApplicationJob
 
   def perform(*args)
     puts "starting job"
-    sleep 2
+    sleep 5
     puts "job finished"
     # Do something later
   end
